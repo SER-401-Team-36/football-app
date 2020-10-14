@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "lint": "eslint \"*/**/*.{js,ts}\" --quiet --fix",
     "test": "echo tests passed"
   },
   "devDependencies": {
