@@ -1,0 +1,6 @@
+language: node-js
+node_js:
+  - 14
+script:
+- yarn lint
+- yarn test
