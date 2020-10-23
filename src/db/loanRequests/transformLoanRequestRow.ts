@@ -1,10 +1,10 @@
 import LoanRequest from '../../types/LoanRequest';
 import Money from '../../types/Money';
 
-interface LoanRequestRow {
+export interface LoanRequestRow {
   id: number;
   requestee_name: string;
-  amount: number;
+  units: number;
   currency: Money['currency'];
 }
 
@@ -13,7 +13,7 @@ const transformLoanRequestRow = (row: LoanRequestRow): LoanRequest => {
     id: row.id,
     requesteeName: row.requestee_name,
     money: {
-      amount: row.amount,
+      units: row.units,
       currency: row.currency,
     },
   };

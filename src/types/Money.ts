@@ -1,5 +1,5 @@
 interface Money {
-  amount: number;
+  units: number;
   currency: 'USD';
 }
 
