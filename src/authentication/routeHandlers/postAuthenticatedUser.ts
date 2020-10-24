@@ -1,8 +1,7 @@
 import { RequestHandler } from 'express';
 
-import Token from '../../utilities/Token';
-
 import authenticateUser from '../../db/users/authenticateUser';
+import Token from '../../utilities/Token';
 
 const postAuthenticatedUser: RequestHandler = async (req, res) => {
   const { email, password } = req.body;
@@ -12,8 +11,10 @@ const postAuthenticatedUser: RequestHandler = async (req, res) => {
   if (userAuth) {
     const token = Token.generate(userAuth);
 
-    return res.json({ token });
+    res.json({ token });
   } else {
-    return res.sendStatus(401);
+    res.sendStatus(401);
   }
 };
+
+export default postAuthenticatedUser;

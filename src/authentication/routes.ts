@@ -1,7 +1,11 @@
-import { Router, json } from 'express';
+import { json, Router } from 'express';
+
+import { postAuthenticatedUser } from './routeHandlers';
 
 const routes = Router();
 
 routes.use(json());
 
-routes.get('/');
+routes.post('/', postAuthenticatedUser);
+
+export default routes;
