@@ -6,6 +6,7 @@ from flask_migrate import Migrate
 from app.models import db
 
 from app.models.player import Player
+from app.controllers.players import players
 
 
 def create_app(test_config=None):
@@ -24,8 +25,6 @@ def create_app(test_config=None):
   db.init_app(app)
   migrate = Migrate(app, db)
 
-  @app.route('/hello')
-  def hello():
-    return "Hello, World!"
+  app.register_blueprint(players)
 
   return app
