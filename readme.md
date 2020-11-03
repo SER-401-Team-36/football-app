@@ -2,12 +2,7 @@
 A flask based web app used to run data analysis on football players to determine best fantasy football draft order.
 
 ## Database stuff
-This app uses flask-sqlalchemy and flask-migrate to handle the connection to PostgreSQL. It relies on the following env variables to be set:
-- DB_USERNAME
-- DB_PASSWORD
-- DB_HOST
-- DB_PORT
-- DB_DATABASE
+This app uses flask-sqlalchemy and flask-migrate to handle the connection to PostgreSQL. It relies on the `DATABASE_URI` env variable to be set.
 
 
 ## Running the app locally
