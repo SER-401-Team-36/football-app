@@ -13,4 +13,4 @@ This app uses flask-sqlalchemy and flask-migrate to handle the connection to Pos
 
 
 ## Linting
-This repo uses [Black](https://github.com/psf/black) as a code formater. Please be sure to run `black app` before committing any code, otherwise it will nott pass ci
+This repo uses [flake8](https://pypi.org/project/flake8/2.2.4/) as a code formater. Please be sure to run `flake8 app` and fix any issues before committing any code, otherwise it will nott pass ci
