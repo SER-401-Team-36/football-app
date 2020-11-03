@@ -13,7 +13,7 @@ def test_client():
         "WTF_CSRF_ENABLED": False,
         "DATABASE_URI": f"{os.getenv('DATABASE_URI')}-test"
     })
-    print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+
     testing_client = flask_app.test_client()
     ctx = flask_app.app_context()
     ctx.push()
