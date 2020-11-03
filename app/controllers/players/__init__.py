@@ -6,4 +6,4 @@ players = Blueprint("players", __name__, url_prefix="/players")
 
 @players.route("/")
 def get_players():
-    return jsonify(Player.query.all())
+    return jsonify([player.as_dict() for player in Player.query.all()])
