@@ -1,11 +1,9 @@
 import os
 
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from app.models import db
 
-from app.models.player import Player
 from app.controllers.players import players
 
 
@@ -23,7 +21,7 @@ def create_app(test_config=None):
         pass
 
     db.init_app(app)
-    migrate = Migrate(app, db)
+    Migrate(app, db)
 
     app.register_blueprint(players)
 
