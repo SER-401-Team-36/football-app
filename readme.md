@@ -9,9 +9,10 @@ This app uses flask-sqlalchemy and flask-migrate to handle the connection to Pos
 1. Follow the basic [Flask Installation Guide](https://flask.palletsprojects.com/en/1.1.x/installation/) to setup flask and python.
 2. Install all the basic dependancies with `pip install -r requirements.txt`
 2. Set the necessary ENV variables in a local `.env` file at the root of the project. (flask requires some basice ENV variables set to run)
-  - This includes the `DATABASE_URI`, which should point to your local postgres instance (this should typically look like: `postgres://username:password@localhost:5432/db_name`)
+    - This includes the `DATABASE_URI`, which should point to your local postgres instance (this should typically look like: `postgres://username:password@localhost:5432/db_name`)
 3. If it's the first time running the application, run all the db migrations first with `flask db upgrade`
-4. Run `flask run`
+4. Once you have the db created, run `flask import_players` to seed the db from the provided csv
+5. Run `flask run`
 
 
 ## Linting
