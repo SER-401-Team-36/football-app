@@ -11,7 +11,7 @@ This app uses flask-sqlalchemy and flask-migrate to handle the connection to Pos
 2. Set the necessary ENV variables in a local `.env` file at the root of the project. (flask requires some basice ENV variables set to run)
     - This includes the `DATABASE_URI`, which should point to your local postgres instance (this should typically look like: `postgres://username:password@localhost:5432/db_name`)
 3. If it's the first time running the application, run all the db migrations first with `flask db upgrade`
-4. Once you have the db created, run `flask import_players` to seed the db from the provided csv
+4. Once you have the db created, run `flask import-players` to seed the db from the provided csv
 5. Run `flask run`
 
 
