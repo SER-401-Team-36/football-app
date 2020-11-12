@@ -1,8 +1,7 @@
-import os
-
 from flask import Flask
 from flask_migrate import Migrate
 from app.models import db
+from scripts import register_scripts
 
 from app.controllers.players import players
 
@@ -15,14 +14,11 @@ def create_app(test_config=None):
     else:
         app.config.from_mapping(test_config)
 
-    try:
-        os.makedirs(app.instance_path)
-    except OSError:
-        pass
-
     db.init_app(app)
     Migrate(app, db)
 
     app.register_blueprint(players)
+
+    register_scripts(app)
 
     return app
