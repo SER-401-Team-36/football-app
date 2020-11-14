@@ -14,5 +14,4 @@ def get_players():
             position=pos.upper()).order_by(desc('projection'))])
     else:
         return jsonify(
-            [player.as_dict() for player in Player.query.all().order_by(
-                desc('projection'))])
+            [player.as_dict() for player in Player.query.all()])
