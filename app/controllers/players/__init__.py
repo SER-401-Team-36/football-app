@@ -7,11 +7,11 @@ players = Blueprint("players", __name__, url_prefix="/players")
 
 @players.route("/")
 def get_players():
-    pos = request.args.get('position').upper()
+    pos = request.args.get('position')
 
     if pos:
         return jsonify([player.as_dict()for player in Player.query.filter_by(
-            position=pos).order_by(desc('projection'))])
+            position=pos.upper()).order_by(desc('projection'))])
     else:
         return jsonify(
             [player.as_dict() for player in Player.query.all().order_by(
