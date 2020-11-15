@@ -5,12 +5,12 @@ services:
     volumes:
       - /var/lib/postgresql/data
     environment:
-      POSTGRES_PASSWORD: example
+      POSTGRES_HOST_AUTH_METHOD: trust
   web:
     image: football-app
     ports:
     - target: 5000
       published: 5000
     environment:
-      DATABASE_URI: postgres://db 
+      DATABASE_URI: postgres://postgres:password@db
       FLASK_APP: app
