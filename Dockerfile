@@ -15,4 +15,4 @@ COPY scripts ./scripts
 COPY migrations ./migrations
 COPY app ./app
 
-CMD ["flask", "run"]
+CMD ["flask", "run", "-h", "0.0.0.0"]
