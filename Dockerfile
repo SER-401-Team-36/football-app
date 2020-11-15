@@ -11,8 +11,8 @@ RUN \
  apk --purge del .build-deps
 
 COPY players.csv .
-COPY scripts .
-COPY migrations .
-COPY app .
+COPY scripts ./scripts
+COPY migrations ./migrations
+COPY app ./app
 
 CMD ["flask", "run"]
