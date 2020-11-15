@@ -10,8 +10,8 @@ def get_players():
     pos = request.args.get('position')
 
     if pos:
-        return jsonify([player.as_dict()for player in Player.query.filter_by(
-            position=pos.upper()).order_by(desc('projection'))])
+        players = Player.query.filter_by(
+            position=pos.upper()).order_by(desc('projection'))
     else:
-        return jsonify(
-            [player.as_dict() for player in Player.query.all()])
+        players = Player.query.all()
+    return jsonify([player.as_dict() for player in players])
