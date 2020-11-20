@@ -2,7 +2,10 @@
 A flask based web app used to run data analysis on football players to determine best fantasy football draft order.
 
 ## Database stuff
-This app uses flask-sqlalchemy and flask-migrate to handle the connection to PostgreSQL. It relies on the `DATABASE_URI` env variable to be set.
+This app uses flask-sqlalchemy and flask-migrate to handle the connection to PostgreSQL. It relies on the `DATABASE_URI` env variable to be set (which is set automatically if using docker).
+
+## Docker
+This app is now setup with docker. Follow the steps in [Running the app in docker](#Running-the-app-in-docker) to get it set up. If you need to run commands in a container, you can use the command `docker exec [db|web] sh` to get shell access.
 
 
 ## Running the app locally
@@ -13,6 +16,13 @@ This app uses flask-sqlalchemy and flask-migrate to handle the connection to Pos
 3. If it's the first time running the application, run all the db migrations first with `flask db upgrade`
 4. Once you have the db created, run `flask import-players` to seed the db from the provided csv
 5. Run `flask run`
+
+## Running the app in docker
+(Note that any changes to code will require a restart of the containers to pick up)
+1. Install [docker](https://www.docker.com/products/docker-desktop) locally
+2. Run `docker-compose up` to start up the containers
+3. Run `docker-compose exec web flask db upgrade` to run all pending migrations
+4. Run `docker-compose exec web flask import-players` to run the import script
 
 
 ## Linting
