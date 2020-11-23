@@ -8,10 +8,17 @@ players = Blueprint("players", __name__, url_prefix="/players")
 @players.route("/")
 def get_players():
     pos = request.args.get('position')
+    name_matcher = request.args.get('match_on_name')
+
+    query = Player.query
 
     if pos:
-        players = Player.query.filter_by(
-            position=pos.upper()).order_by(desc('projection'))
-    else:
-        players = Player.query.all()
-    return jsonify([player.as_dict() for player in players])
+        query = query.filter_by(
+            position=pos.upper()
+            ). order_by(desc('projection'))
+
+    if name_matcher:
+        query = query.filter(Player.name.ilike(f"%{name_matcher}%"))
+
+    query = query.all()
+    return jsonify([player.as_dict() for player in query])
