@@ -1,0 +1,7 @@
+ESPN: No API to use, could use/build a web scraper.
+
+https://fantasy.espn.com/football/players/projections
+
+NFL: Same as above, could use/build a web scraper.
+https://fantasy.nfl.com/research/projections#researchProjections=researchProjections%2C%2Fresearch%2Fprojections%253Fposition%253DO%2526sort%253DprojectedPts%2526statCategory%253DprojectedStats%2526statSeason%253D2020%2526statType%253DseasonProjectedStats%2Creplace
+
