@@ -27,7 +27,6 @@ Baker Mayfield,QB,CLE,229.18
 Michael Thomas,WR,NO,225.6
 Drew Brees,QB,NO,224.76
 Ryan Tannehill,QB,TEN,224.18
-New England Patriots,DST,NE,224
 Nick Chubb,RB,CLE,219.2
 Austin Ekeler IR,RB,LAC,217
 Jacoby Brissett,QB,IND,216.68
@@ -46,7 +45,6 @@ Shaquil Barrett,OLB,TB,186.15
 Chandler Jones IR,OLB,ARI,184.55
 Leonard Fournette,RB,JAX,183.4
 Kenny Golladay Q,WR,DET,183
-Pittsburgh Steelers,DST,PIT,180
 Kyle Allen IR,QB,CAR,177.48
 Cooper Kupp,WR,LAR,176.5
 Julio Jones Q,WR,ATL,175.1
@@ -62,7 +60,6 @@ Mike Evans,WR,TB,165.7
 A.J. Brown,WR,TEN,165.1
 DeAndre Hopkins,WR,HOU,164.54
 Kenyan Drake,RB,ARI,164.2
-San Francisco 49ers,DST,SF,163
 Phillip Lindsay,RB,DEN,162.7
 Logan Ryan,CB,TEN,162.15
 Cory Littleton,ILB,LAR,159
@@ -86,7 +83,6 @@ Fred Warner,ILB,SF,150.6
 Courtland Sutton IR,WR,DEN,150.42
 Eric Reid,SS,CAR,150
 Wil Lutz,K,NO,150
-Baltimore Ravens,DST,BAL,150
 Stefon Diggs,WR,MIN,149.1
 Le'Veon Bell,RB,NYJ,149
 John Brown Q,WR,BUF,147.82
@@ -95,10 +91,8 @@ Lavonte David,ILB,TB,146.9
 Michael Gallup,WR,DAL,146.7
 Demario Davis,OLB,NO,146.2
 Zach Cunningham,OLB,HOU,146.1
-Los Angeles Rams,DST,LAR,146
 David Montgomery Q,RB,CHI,145.4
 Za'Darius Smith,OLB,GB,144.75
-Kansas City Chiefs,DST,KC,144
 Luke Kuechly,ILB,CAR,143.5
 D.J. Moore,WR,CAR,143.5
 Carlos Hyde,RB,HOU,143.2
@@ -106,10 +100,8 @@ Bud Dupree,OLB,PIT,143.2
 Mark Andrews Q,TE,BAL,143.2
 Jamal Adams,SS,NYJ,143.15
 Justin Tucker,K,BAL,143
-Minnesota Vikings,DST,MIN,143
 Robert Woods,WR,LAR,142.9
 Joey Bosa,DE,LAC,141.05
-New Orleans Saints,DST,NO,141
 Sony Michel,RB,NE,140.6
 De'Vondre Campbell,OLB,ATL,140.3
 Matthew Judon Q,OLB,BAL,139.95
@@ -117,7 +109,6 @@ Cameron Heyward,DT,PIT,139.1
 Melvin Gordon III,RB,LAC,138.8
 Devonta Freeman IR,RB,ATL,138.6
 George Kittle IR,TE,SF,137.5
-Tampa Bay Buccaneers,DST,TB,137
 Devin Bush IR,ILB,PIT,136.4
 Markus Golden,OLB,NYG,135.6
 Ronald Jones II,RB,TB,135.3
@@ -128,8 +119,6 @@ Calvin Ridley,WR,ATL,134
 Terry McLaurin Q,WR,WAS,133.9
 Tyler Boyd,WR,CIN,132.9
 Deebo Samuel Q,WR,SF,132.1
-New York Jets,DST,NYJ,132
-Buffalo Bills,DST,BUF,132
 Marvin Jones Jr.,WR,DET,131.9
 Jerome Baker,LB,MIA,131.8
 Zane Gonzalez,K,ARI,131
@@ -151,14 +140,12 @@ Dan Bailey,K,MIN,127
 Vonn Bell,SS,NO,126.9
 Carlos Dunlap,DE,CIN,126.85
 Josh Lambo IR,K,JAX,126
-Tennessee Titans,DST,TEN,125
 Jared Cook,TE,NO,124.5
 Rashaan Evans,ILB,TEN,124.35
 Emmanuel Sanders,WR,SF,124.3
 Preston Smith,OLB,GB,124.3
 Tremaine Edmunds,ILB,BUF,124.15
 Greg Zuerlein Q,K,LAR,124
-Indianapolis Colts,DST,IND,124
 Latavius Murray,RB,NO,123.2
 Landon Collins IR,SS,WAS,122.9
 Yannick Ngakoue,DE,JAX,122.8
@@ -176,7 +163,6 @@ Devin Singletary,RB,BUF,118.9
 Maxx Crosby,DE,LV,118.45
 Matt Milano IR,OLB,BUF,118.25
 Justin Houston,DE,IND,118.1
-Seattle Seahawks,DST,SEA,118
 Cole Beasley,WR,BUF,117.8
 Shaq Thompson,ILB,CAR,117.8
 Curtis Samuel,WR,CAR,117.7
@@ -213,12 +199,10 @@ Minkah Fitzpatrick,FS,PIT,109.5
 Robert Quinn,OLB,DAL,109.1
 Taylor Rapp IR,SS,LAR,109
 Jessie Bates III,FS,CIN,109
-Philadelphia Eagles,DST,PHI,109
 Mason Rudolph,QB,PIT,108.8
 Justin Simmons,FS,DEN,108.5
 Trey Flowers IR,DE,DET,108.1
 Mason Crosby,K,GB,108
-Green Bay Packers,DST,GB,108
 Jamaal Williams,RB,GB,107.3
 Randy Bullock,K,CIN,107
 Austin Seibert,K,CLE,107
@@ -228,7 +212,6 @@ Josh Allen O,DE,JAX,106.55
 Ka'imi Fairbairn,K,HOU,106
 Tre Flowers,CB,SEA,105.6
 David Johnson IR,RB,ARI,105.5
-Chicago Bears,DST,CHI,105
 Brett Maher,K,DAL,104
 Tyrann Mathieu,SS,KC,103.9
 Case Keenum,QB,WAS,103.48
@@ -248,7 +231,6 @@ Jordan Howard,RB,PHI,101.4
 Frank Clark,DE,KC,101.1
 Tyrell Williams IR,WR,LV,101.1
 Roquan Smith,ILB,CHI,101.1
-Jacksonville Jaguars,DST,JAX,101
 Kevin King,CB,GB,100.7
 Peyton Barber,RB,TB,100.5
 Marquise Brown,WR,BAL,100.4
@@ -261,8 +243,6 @@ Royce Freeman,RB,DEN,99.2
 Kevin Byard,FS,TEN,99.1
 Thomas Davis Sr.,OLB,LAC,99.05
 Kyle Fuller,CB,CHI,99
-Dallas Cowboys,DST,DAL,99
-Denver Broncos,DST,DEN,99
 Adrian Amos,FS,GB,98.9
 Jonathan Allen,DT,WAS,98.65
 Tre'Davious White,CB,BUF,98.4
@@ -281,7 +261,6 @@ Jabrill Peppers,SS,NYG,94.75
 Chris Jones,NT,KC,94.5
 Zach Pascal,WR,IND,94.3
 Everson Griffen,DE,MIN,94.1
-Atlanta Falcons,DST,ATL,94
 Ha Ha Clinton-Dix,SS,CHI,93.5
 Mike Hilton,CB,PIT,93
 Jadeveon Clowney IR,DE,SEA,92.9
@@ -289,11 +268,9 @@ DeMarcus Lawrence,DE,DAL,92.4
 Dre Greenlaw,OLB,SF,92.4
 Neville Hewitt,ILB,NYJ,92.3
 A.J. Klein,OLB,NO,92.2
-Washington Football Team,DST,WAS,92
 Von Miller IR,OLB,DEN,91.75
 Tyler Higbee,TE,LAR,91.4
 Daniel Carlson,K,LV,91
-Carolina Panthers,DST,CAR,91
 Montez Sweat,DE,WAS,90.8
 Dede Westbrook IR,WR,JAX,90.7
 LeSean McCoy,RB,KC,90.6
@@ -301,7 +278,6 @@ Anthony Hitchens,LB,KC,90.6
 Teddy Bridgewater Q,QB,NO,90.46
 Vic Beasley Jr.,OLB,ATL,90.4
 Levi Wallace,CB,BUF,90
-Houston Texans,DST,HOU,90
 James Burgess,ILB,NYJ,89.95
 Terrell Suggs,DE,KC,89.75
 James Washington,WR,PIT,89.5
@@ -319,7 +295,6 @@ Anthony Harris,FS,MIN,87.5
 Kenny Vaccaro Q,SS,TEN,87.1
 Bruce Irvin IR,OLB,CAR,87.05
 Byron Murphy Jr.,CB,ARI,87
-Cleveland Browns,DST,CLE,87
 David Mayo,OLB,NYG,86.85
 Dallas Goedert,TE,PHI,86.7
 Janoris Jenkins,CB,NO,86.5
@@ -354,7 +329,6 @@ Bradley McDougald IR,SS,SEA,84.35
 Matt Breida,RB,SF,84.3
 Ryan Anderson Q,OLB,WAS,84.2
 Justin Reid,SS,HOU,84
-Los Angeles Chargers,DST,LAC,84
 Kenny Clark,NT,GB,83.65
 Rodney McLeod,FS,PHI,83.5
 Micah Hyde,FS,BUF,83.5
@@ -367,7 +341,6 @@ Richard Sherman IR,CB,SF,82.5
 Tre Boston,FS,CAR,82.5
 Jason Pierre-Paul,OLB,TB,82.2
 Marcus Williams,SS,NO,82
-New York Giants,DST,NYG,82
 Damien Wilson,LB,KC,81.95
 Frank Gore,RB,BUF,81.9
 Mario Addison,OLB,CAR,81.85
@@ -381,7 +354,6 @@ T.Y. Hilton,WR,IND,80.1
 Kenny Stills Q,WR,HOU,80.1
 Jordan Whitehead,SS,TB,80
 Brian Poole IR,CB,NYJ,80
-Detroit Lions,DST,DET,80
 Patrick Onwuasor,OLB,BAL,79.8
 Jordan Jenkins,OLB,NYJ,79.7
 Justin Coleman,CB,DET,79.5
@@ -456,7 +428,6 @@ Montae Nicholson,SS,WAS,70
 Carl Nassib,DE,TB,70
 Juan Thornhill,FS,KC,70
 Clelin Ferrell,DE,LV,70
-Las Vegas Raiders,DST,LV,70
 Jonnu Smith,TE,TEN,69.7
 Bashaud Breeland,CB,KC,69.5
 Steven Nelson,CB,PIT,69.5
@@ -481,9 +452,70 @@ Rashaad Penny PUP,RB,SEA,67.3
 Emmanuel Ogbah,DE,KC,67.25
 John Ross III IR,WR,CIN,67
 Khari Willis,SS,IND,67
-Arizona Cardinals,DST,ARI,67
-Cincinnati Bengals,DST,CIN,67
 Nigel Bradham,ILB,PHI,66.5
 Germaine Pratt,ILB,CIN,66.5
 Brennan Scarlett IR,OLB,HOU,66.45
 Danny Shelton,DT,NE,66.4
+Dolphins,D/ST,Dolphins,64
+Steelers,D/ST,Steelers,108
+Washington,D/ST,Washington,77
+Rams,D/ST,Rams,79
+Seahawks,D/ST,Seahawks,20
+Browns,D/ST,Browns,63
+Giants,D/ST,Giants,56
+Packers,D/ST,Packers,40
+Saints,D/ST,Saints,83
+Colts,D/ST,Colts,111
+Broncos,D/ST,Broncos,45
+Bengals,D/ST,Bengals,8
+Jets,D/ST,Jets,13
+Cardinals,D/ST,Cardinals,44
+Panthers,D/ST,Panthers,34
+Cowboys,D/ST,Cowboys,11
+Vikings,D/ST,Vikings,20
+Jaguars,D/ST,Jaguars,11
+Ravens,D/ST,Ravens,85
+Bears,D/ST,Bears,60
+Eagles,D/ST,Eagles,66
+Bills,D/ST,Bills,39
+Texans,D/ST,Texans,21
+49ers,D/ST,49ers,48
+Lions,D/ST,Lions,12
+Falcons,D/ST,Falcons,9
+Raiders,D/ST,Raiders,9
+Chargers,D/ST,Chargers,41
+Chiefs,D/ST,Chiefs,59
+Titans,D/ST,Titans,24
+Patriots,D/ST,Patriots,50
+Buccaneers,D/ST,Buccaneers,84
+Corey Clement,RB,PHI,-4
+Michael Walker,WR,JAX,-2.5
+Quincy Enunwa,WR,NYJ,-2.4
+Ray-Ray McCloud III,WR,CAR,-2
+Greg Dortch,WR,CAR,-2
+Darrius Shepherd,WR,GB,-1.9
+Jarrett Stidham,QB,NE,-1.64
+Sean Mannion,QB,MIN,-1.46
+Blake Bortles,QB,LAR,-0.78
+Garrett Gilbert,QB,CLE,-0.3
+Nick Mullens,QB,SF,-0.3
+Tim Boyle,QB,GB,-0.1
+Zak DeOssie,LS,NYG,0
+Jon Condo,LS,SF,0
+L.P. Ladouceur,LS,DAL,0
+Don Muhlbach,LS,DET,0
+Matthew Slater P,WR,NE,0
+J.J. Jansen,LS,CAR,0
+Garrison Sanborn,LS,SF,0
+Morgan Cox,LS,BAL,0
+Jon Weeks,LS,HOU,0
+Nick Sundberg,LS,WAS,0
+Dekoda Watson,OLB,SEA,0
+Clark Harris,LS,CIN,0
+Marcus Sherels,CB,MIA,0
+Jake McQuaide,LS,LAR,0
+Aaron Brewer,LS,ARI,0
+Malik Jackson,DT,PHI,0
+Garrett Celek,TE,SF,0
+Robert Turbin,RB,SEA,0
+Josh Harris,LS,ATL,0
