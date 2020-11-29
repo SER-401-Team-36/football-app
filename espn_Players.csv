@@ -1,0 +1,521 @@
+player_name,pos,team,projection
+Patrick Mahomes,QB,Chiefs,340.97
+Lamar Jackson,QB,Ravens,339.52
+Deshaun Watson,QB,Texans,319.41
+Dak Prescott,QB,Cowboys,301.28
+Kyler Murray,QB,Cardinals,299.65
+Russell Wilson,QB,Seahawks,294.26
+Tom Brady,QB,Buccaneers,290.31
+Matt Ryan,QB,Falcons,282.96
+Josh Allen,QB,Bills,273.18
+Drew Brees,QB,Saints,268.68
+Matthew Stafford,QB,Lions,267.53
+Carson Wentz,QB,Eagles,266.72
+Aaron Rodgers,QB,Packers,264.22
+Cam Newton,QB,Patriots,259.13
+Daniel Jones,QB,Giants,248.82
+Jared Goff,QB,Rams,243.54
+Ben Roethlisberger,QB,Steelers,240.74
+Ryan Tannehill,QB,Titans,239.16
+Derek Carr,QB,Raiders,237.41
+Jimmy Garoppolo,QB,49ers,233.72
+Joe Burrow,QB,Bengals,232.47
+Drew Lock,QB,Broncos,232.18
+Kirk Cousins,QB,Vikings,229.74
+Gardner Minshew II,QB,Jaguars,227.86
+Philip Rivers,QB,Colts,224.71
+Baker Mayfield,QB,Browns,223.93
+Sam Darnold,QB,Jets,222.96
+Dwayne Haskins Jr.,QB,FA,206.94
+Teddy Bridgewater,QB,Panthers,205.88
+Tua Tagovailoa,QB,Dolphins,180.14
+Justin Herbert,QB,Chargers,159.08
+Mitchell Trubisky,QB,Bears,140.26
+Nick Foles,QB,Bears,101.75
+Tyrod Taylor,QB,Chargers,89.61
+Ryan Fitzpatrick,QB,Dolphins,72.83
+Taysom Hill,QB,Saints,72.73
+P.J. Walker,QB,Panthers,36.54
+Mason Rudolph,QB,Steelers,27.16
+Jalen Hurts,QB,Eagles,26.51
+Case Keenum,QB,Browns,24.18
+Jake Luton,QB,Jaguars,22.64
+Alex Smith,QB,FA,22.01
+Blaine Gabbert,QB,Buccaneers,19.89
+Jameis Winston,QB,Saints,18.73
+Matt Barkley,QB,Bills,18.72
+Jacoby Brissett,QB,Colts,18.27
+Jarrett Stidham,QB,Patriots,17.65
+Robert Griffin III,QB,Ravens,13.85
+Matt Schaub,QB,Falcons,13.41
+Brett Hundley,QB,Cardinals,11.9
+Chase Daniel,QB,Lions,11.73
+Geno Smith,QB,Seahawks,11.69
+Colt McCoy,QB,Giants,11.63
+Chad Henne,QB,Chiefs,11.53
+Andy Dalton,QB,Cowboys,11.18
+Jeff Driskel,QB,Broncos,10.96
+AJ McCarron,QB,Texans,10.95
+Nick Mullens,QB,49ers,10.47
+Ryan Finley,QB,Bengals,10.37
+John Wolford,QB,Rams,10.05
+Nathan Peterman,QB,Raiders,9.17
+Logan Woodside,QB,Titans,9.09
+Joe Flacco,QB,Jets,8.71
+Sean Mannion,QB,Vikings,7.99
+Jordan Love,QB,Packers,5.42
+Kyle Allen,QB,FA,5.35
+Tim Boyle,QB,Packers,4.67
+James Morgan,QB,Jets,1.88
+Marcus Mariota,QB,Raiders,0
+Mike Glennon,QB,Jaguars,0
+C.J. Beathard,QB,49ers,0
+Ben DiNucci,QB,Cowboys,0
+Brett Rypien,QB,Broncos,0
+Brian Hoyer,QB,Patriots,0
+Easton Stick,QB,Chargers,0
+Jake Fromm,QB,Bills,0
+Jacob Eason,QB,Colts,0
+Trace McSorley,QB,Ravens,0
+Will Grier,QB,Panthers,0
+Nate Sudfeld,QB,Eagles,0
+Joshua Dobbs,QB,Steelers,0
+Ryan Griffin,QB,Buccaneers,0
+David Blough,QB,Lions,0
+Garrett Gilbert,QB,Cowboys,0
+Blake Bortles,QB,Broncos,0
+Nick Fitzgerald,QB,FA,0
+Devlin Hodges,QB,Steelers,0
+Nate Stanley,QB,Vikings,0
+Anthony Gordon,QB,FA,0
+Cole McDonald,QB,FA,0
+Alex McGough,QB,FA,0
+DeShone Kizer,QB,Titans,0
+Clayton Thorson,QB,FA,0
+Tyree Jackson,QB,Bills,0
+Josh Rosen,QB,Buccaneers,0
+Luke Falk,QB,Jets,0
+Danny Etling,QB,FA,0
+Davis Webb,QB,Bills,0
+Paxton Lynch,QB,FA,0
+Kyle Lauletta,QB,FA,0
+Christian McCaffrey,RB,Panthers,334.94
+Ezekiel Elliott,RB,Cowboys,298.18
+Alvin Kamara,RB,Saints,292.04
+Dalvin Cook,RB,Vikings,289.71
+Saquon Barkley,RB,Giants,288.62
+Clyde Edwards-Helaire,RB,Chiefs,266.92
+Derrick Henry,RB,Titans,253.84
+Kenyan Drake,RB,Cardinals,245.44
+Miles Sanders,RB,Eagles,244.06
+Nick Chubb,RB,Browns,241.69
+Josh Jacobs,RB,Raiders,241.01
+Aaron Jones,RB,Packers,240.34
+Austin Ekeler,RB,Chargers,239.26
+David Johnson,RB,Texans,236.58
+Joe Mixon,RB,Bengals,229.03
+Chris Carson,RB,Seahawks,223.7
+Todd Gurley II,RB,Falcons,223.18
+Le'Veon Bell,RB,Chiefs,207.05
+Melvin Gordon III,RB,Broncos,200.14
+James Conner,RB,Steelers,197.04
+Jonathan Taylor,RB,Colts,184.22
+Antonio Gibson,RB,FA,175.97
+Kareem Hunt,RB,Browns,173.18
+Devin Singletary,RB,Bills,172.4
+Cam Akers,RB,Rams,171.19
+Tarik Cohen,RB,Bears,170.01
+David Montgomery,RB,Bears,169.23
+D'Andre Swift,RB,Lions,161.23
+Raheem Mostert,RB,49ers,160.79
+Mark Ingram II,RB,Ravens,160.18
+Ronald Jones II,RB,Buccaneers,158.96
+James White,RB,Patriots,158.36
+Phillip Lindsay,RB,Broncos,154.42
+Jordan Howard,RB,FA,151.32
+Duke Johnson,RB,Texans,151.13
+Leonard Fournette,RB,Buccaneers,142.75
+Kerryon Johnson,RB,Lions,142.51
+Matt Breida,RB,Dolphins,137.06
+Zack Moss,RB,Bills,136.94
+J.K. Dobbins,RB,Ravens,133.7
+Nyheim Hines,RB,Colts,133.15
+Latavius Murray,RB,Saints,131.88
+Marlon Mack,RB,Colts,131.01
+Tevin Coleman,RB,49ers,125.32
+Chris Thompson,RB,Jaguars,125.24
+Boston Scott,RB,Eagles,124.22
+Darrell Henderson Jr.,RB,Rams,124.02
+Justin Jackson,RB,Chargers,108.83
+Jamaal Williams,RB,Packers,104.52
+James Robinson,RB,Jaguars,103.79
+Tony Pollard,RB,Cowboys,102.24
+Darrel Williams,RB,Chiefs,102.2
+Alexander Mattison,RB,Vikings,98.96
+Sony Michel,RB,Patriots,97.61
+Jalen Richard,RB,Raiders,91.26
+Darrynton Evans,RB,Titans,90.55
+Jerick McKinnon,RB,49ers,89.19
+Benny Snell Jr.,RB,Steelers,88.14
+Giovani Bernard,RB,Bengals,87.53
+LeSean McCoy,RB,Buccaneers,86.34
+Damien Harris,RB,Patriots,84.71
+Chase Edmonds,RB,Cardinals,83.62
+Joshua Kelley,RB,Chargers,82.56
+Devontae Booker,RB,Raiders,71.6
+J.D. McKissic,RB,FA,71.44
+Rashaad Penny,RB,Seahawks,70.05
+Frank Gore,RB,Jets,68.54
+Brian Hill,RB,Falcons,67.62
+Bryce Love,RB,FA,67.5
+Rex Burkhead,RB,Patriots,66.98
+Peyton Barber,RB,FA,66.87
+Jaylen Samuels,RB,Steelers,65.05
+AJ Dillon,RB,Packers,63.59
+Adrian Peterson,RB,Lions,63.1
+Devine Ozigbo,RB,Jaguars,57.4
+Ito Smith,RB,Falcons,55.86
+Mike Davis,RB,Panthers,55.15
+Carlos Hyde,RB,Seahawks,53.77
+La'Mical Perine,RB,Jets,52.99
+Gus Edwards,RB,Ravens,51.71
+Anthony McFarland Jr.,RB,Steelers,51.39
+Malcolm Brown,RB,Rams,44.41
+Dion Lewis,RB,Giants,42.1
+Kyle Juszczyk,RB,49ers,37.16
+C.J. Ham,RB,Vikings,36.9
+Cordarrelle Patterson,RB,BearsWR,1
+Ryan Nall,RB,Bears,32.58
+Khari Blasingame,RB,Titans,30.32
+Royce Freeman,RB,Broncos,26.12
+Dare Ogunbowale,RB,Jaguars,26.03
+Ke'Shawn Vaughn,RB,Buccaneers,25.92
+Myles Gaskin,RB,Dolphins,25.13
+Trayveon Williams,RB,Bengals,24.81
+Corey Clement,RB,Eagles,23.7
+Ty Montgomery,RB,Saints,23.45
+Wayne Gallman,RB,Giants,22.9
+Mike Boone,RB,Vikings,22.55
+D'Ernest Johnson,RB,Browns,20.69
+T.J. Yeldon,RB,Bills,20.15
+Qadree Ollison,RB,Falcons,20.07
+Eno Benjamin,RB,Cardinals,18.69
+Rico Dowdle,RB,Cowboys,17.96
+Trenton Cannon,RB,Panthers,16.93
+Jordan Wilkins,RB,Colts,16.71
+Ameer Abdullah,RB,Vikings,16.7
+Jeff Wilson Jr.,RB,49ers,16.07
+Tyler Ervin,RB,Packers,13.58
+Alec Ingold,RB,Raiders,13.56
+Anthony Sherman,RB,Chiefs,13.56
+Justice Hill,RB,Ravens,13.44
+Elijhaa Penny,RB,Giants,12.9
+Senorise Perry,RB,Titans,12.42
+Ryquell Armstead,RB,Jaguars,12.22
+Andy Janovich,RB,Browns,11.11
+DeeJay Dallas,RB,Seahawks,10.98
+Patrick Laird,RB,Dolphins,10.71
+J.J. Taylor,RB,Patriots,10.65
+Derek Watt,RB,Steelers,9.41
+Michael Burton,RB,Saints,8.92
+Cethan Carter,RB,Bengals,8.31
+Ty Johnson,RB,Jets,8.26
+Keith Smith,RB,Falcons,6.84
+Jakob Johnson,RB,Patriots,6.69
+Xavier Jones,RB,Rams,6.65
+Samaje Perine,RB,Bengals,5.98
+Reggie Gilliam,RB,Bills,5.03
+Alex Armah,RB,Panthers,3.32
+Jason Huntley,RB,Eagles,2.35
+Raymond Calais,RB,Rams,2.32
+Dwayne Washington,RB,Saints,2.23
+Darwin Thompson,RB,Chiefs,2.03
+Travis Homer,RB,Seahawks,1.43
+Buddy Howell,RB,Texans,0.37
+Patrick Ricard,RB,Ravens,0.01
+Devonta Freeman,RB,Giants,0
+Jeremy McNichols,RB,Titans,0
+JaMycal Hasty,RB,49ers,0
+Jason Cabinda,RB,Lions,0
+Chandler Cox,RB,Dolphins,0
+Dontrell Hilliard,RB,Browns,0
+Bruce Miller,RB,Jaguars,0
+Cullen Gillaspia,RB,Texans,0
+LeVante Bellamy,RB,FA,0
+Bo Scarbrough,RB,Seahawks,0
+Nick Bawden,RB,Lions,0
+T.J. Logan,RB,Buccaneers,0
+C.J. Prosise,RB,Texans,0
+Danny Vitale,RB,Patriots,0
+Damien Williams,RB,Chiefs,0
+Michael Thomas,WR,Saints,374.6
+Davante Adams,WR,Packers,212.7
+Julio Jones,WR,Falcons,274.1
+Tyreek Hill,WR,Chiefs,188.3
+DeAndre Hopkins,WR,Cardinals,268.54
+Chris Godwin,WR,Buccaneers,276.1
+Adam Thielen,WR,Vikings,114.4
+DJ Moore,WR,Panthers,230.5
+Mike Evans,WR,Buccaneers,232.7
+Allen Robinson II,WR,Bears,254.9
+JuJu Smith-Schuster,WR,Steelers,113.2
+Amari Cooper,WR,Cowboys,246.5
+Robert Woods,WR,Rams,232.9
+Will Fuller V,WR,Texans,134
+Calvin Ridley,WR,Falcons,197
+Tyler Lockett,WR,Seahawks,235.2
+Odell Beckham Jr.,WR,Browns,201.3
+Cooper Kupp,WR,Rams,270.5
+A.J. Brown,WR,Titans,217.1
+Keenan Allen,WR,Chargers,261.5
+T.Y. Hilton,WR,Colts,125.1
+Kenny Golladay,WR,Lions,248
+Terry McLaurin,WR,FA,191.9
+Jarvis Landry,WR,Browns,237.4
+DJ Chark Jr.,WR,Jaguars,225.8
+Courtland Sutton,WR,Broncos,222.42
+DeVante Parker,WR,Dolphins,246.2
+Michael Gallup,WR,Cowboys,212.7
+DK Metcalf,WR,Seahawks,187.1
+Sterling Shepard,WR,Giants,141.8
+Marvin Jones Jr.,WR,Lions,193.9
+Tyler Boyd,WR,Bengals,222.9
+Julian Edelman,WR,Patriots,256.28
+Jamison Crowder,WR,Jets,197.7
+Marquise Brown,WR,Ravens,146.4
+Stefon Diggs,WR,Bills,212.1
+Deebo Samuel,WR,49ers,189.1
+Diontae Johnson,WR,Steelers,163.1
+Christian Kirk,WR,Cardinals,168.2
+Preston Williams,WR,Dolphins,90.8
+Robby Anderson,WR,Panthers,162.3
+Emmanuel Sanders,WR,Saints,190.3
+Golden Tate,WR,Giants,152.2
+John Brown,WR,Bills,219.82
+Sammy Watkins,WR,Chiefs,138.5
+Darius Slayton,WR,Giants,170
+Brandin Cooks,WR,Texans,117.5
+Breshad Perriman,WR,Jets,138.1
+Curtis Samuel,WR,Panthers,171.7
+N'Keal Harry,WR,Patriots,39.4
+Mike Williams,WR,Chargers,161.3
+Steven Sims Jr.,WR,FA,109.5
+DeSean Jackson,WR,Eagles,36.9
+Larry Fitzgerald,WR,Cardinals,177.4
+Cole Beasley,WR,Bills,184.8
+Anthony Miller,WR,Bears,127.5
+Danny Amendola,WR,Lions,140.56
+Alshon Jeffery,WR,Eagles,122.2
+Allen Lazard,WR,Packers,102.8
+Russell Gage,WR,Falcons,98.8
+Hunter Renfrow,WR,Raiders,133.5
+Parris Campbell,WR,Colts,38.1
+Jakeem Grant,WR,Dolphins,45.9
+Corey Davis,WR,Titans,115.1
+Randall Cobb,WR,Texans,154.9
+Adam Humphries,WR,Titans,86.5
+Chris Conley,WR,Jaguars,156.5
+Demarcus Robinson,WR,Chiefs,100.9
+Dede Westbrook,WR,Jaguars,156.7
+Damiere Byrd,WR,Patriots,71.9
+Marquez Valdes-Scantling,WR,Packers,84.1
+James Washington,WR,Steelers,133.5
+Scotty Miller,WR,Buccaneers,40.6
+Ted Ginn Jr.,WR,FA,85.9
+Miles Boykin,WR,Ravens,50.8
+Willie Snead IV,WR,Ravens,95.1
+Isaiah Ford,WR,Patriots,48.5
+Andy Isabella,WR,Cardinals,35.4
+Mecole Hardman,WR,Chiefs,119.5
+Dontrelle Inman,WR,FA,30.1
+Jakobi Meyers,WR,Patriots,61.9
+John Ross III,WR,Bengals,95
+Josh Reynolds,WR,Rams,61.9
+Phillip Dorsett II,WR,Seahawks,100.8
+Kenny Stills,WR,Texans,120.1
+Chris Hogan,WR,Jets,14.7
+Josh Gordon,WR,Seahawks,73.7
+Tre'Quan Smith,WR,Saints,71.4
+Bisi Johnson,WR,Vikings,79
+Nelson Agholor,WR,Raiders,94
+Zach Pascal,WR,Colts,135.3
+Kendrick Bourne,WR,49ers,97.8
+DaeSean Hamilton,WR,Broncos,63.7
+Christian Blake,WR,Falcons,20.1
+David Moore,WR,Seahawks,59.6
+Justin Watson,WR,Buccaneers,42.9
+Rashard Higgins,WR,Browns,15.5
+Jamal Agnew,WR,Lions,11.7
+Cordarrelle Patterson,RB,Bears,1
+Gunner Olszewski,WR,Patriots,3.4
+Jalen Guyton,WR,Chargers,0
+Kalif Raymond,WR,Titans,29.5
+Olamide Zaccheaus,WR,Falcons,20.5
+Tim Patrick,WR,Broncos,37.8
+Pharoh Cooper,WR,Panthers,55.5
+Deonte Harris,WR,Saints,15.5
+Greg Ward,WR,Eagles,59.9
+Auden Tate,WR,Bengals,101.5
+Javon Wims,WR,Bears,42.6
+KeeSean Johnson,WR,Cardinals,46
+Lynn Bowden Jr.,WR,Dolphins,46
+Keelan Cole Sr.,WR,Jaguars,78.7
+Isaiah McKenzie,WR,Bills,63.3
+Cedrick Wilson,WR,Cowboys,9.6
+DeAndre Carter,WR,Bears,25.2
+Trent Sherfield,WR,Cardinals,12
+Riley Ridley,WR,Bears,12.9
+Jason Moore,WR,Chargers,6.3
+KhaDarel Hodge,WR,Browns,11.6
+Tajae Sharpe,WR,Vikings,81.9
+Zay Jones,WR,Raiders,48.9
+J.J. Arcega-Whiteside,WR,Eagles,32.9
+Braxton Berrios,WR,Jets,15.5
+Jaydon Mickens,WR,Buccaneers,0
+Marvin Hall,WR,Lions,39.8
+Keith Kirkwood,WR,Panthers,0
+Richie James,WR,49ers,26.4
+Andre Roberts,WR,Bills,5.7
+Dante Pettis,WR,Giants,34.54
+Byron Pringle,WR,Chiefs,35
+Mack Hollins,WR,Dolphins,22.5
+Seth Roberts,WR,FA,60.1
+Malik Turner,WR,Cowboys,45.5
+Diontae Spencer,WR,Broncos,7.7
+C.J. Board,WR,Giants,5.1
+Damion Ratley,WR,FA,38
+Rico Gafford,WR,Raiders,14.6
+Cody Hollister,WR,Titans,3.3
+Mike Thomas,WR,Bengals,3.4
+Chris Moore,WR,Ravens,5.1
+Nsimba Webster,WR,Rams,0
+Ray-Ray McCloud,WR,Steelers,-2
+Alex Erickson,WR,Bengals,96.24
+Brandon Zylstra,WR,Panthers,18.6
+Chad Beebe,WR,Vikings,9
+Ashton Dulin,WR,Colts,3.7
+JoJo Natson,WR,Browns,0
+Travis Fulgham,WR,Eagles,0
+Jeff Smith,WR,Jets,2.2
+Marcus Johnson,WR,Colts,56.7
+Cam Sims,WR,FA,4.7
+Robert Foster,WR,FA,12.3
+Bennie Fowler,WR,Saints,46.3
+Darrius Shepherd,WR,Packers,-0.9
+Travis Kelce,TE,Chiefs,254.3
+George Kittle,TE,49ers,222.5
+Mark Andrews,TE,Ravens,207.2
+Zach Ertz,TE,Eagles,215.6
+Darren Waller,TE,Raiders,221
+Evan Engram,TE,Giants,109.4
+Tyler Higbee,TE,Rams,160.4
+Jared Cook,TE,Saints,167.5
+Hunter Henry,TE,Chargers,150.2
+Noah Fant,TE,Broncos,111
+Hayden Hurst,TE,Falcons,76.9
+T.J. Hockenson,TE,Lions,80.7
+Mike Gesicki,TE,Dolphins,136
+Chris Herndon,TE,Jets,1.7
+Jack Doyle,TE,Colts,111.8
+Austin Hooper,TE,Browns,191.7
+Dallas Goedert,TE,Eagles,144.7
+Eric Ebron,TE,Steelers,86.5
+Blake Jarwin,TE,Cowboys,85.5
+Jonnu Smith,TE,Titans,104.7
+Irv Smith Jr.,TE,Vikings,79.1
+Jimmy Graham,TE,Bears,100.7
+Tyler Eifert,TE,Jaguars,106.6
+Ian Thomas,TE,Panthers,35.6
+Jordan Akins,TE,Texans,89.8
+Dawson Knox,TE,Bills,79.7
+Will Dissly,TE,Seahawks,73.9
+C.J. Uzomah,TE,Bengals,63.2
+Kyle Rudolph,TE,Vikings,113.7
+Dan Arnold,TE,Cardinals,32.7
+Jace Sternberger,TE,Packers,0
+Nick Boyle,TE,Ravens,75.1
+Logan Thomas,TE,FA,39.3
+Greg Olsen,TE,Seahawks,123.7
+Gerald Everett,TE,Rams,89.8
+Darren Fells,TE,Texans,110.1
+O.J. Howard,TE,Buccaneers,83.9
+Vance McDonald,TE,Steelers,83.5
+Anthony Firkser,TE,Titans,40.4
+James O'Shaughnessy,TE,Jaguars,41.3
+Jeremy Sprinkle,TE,FA,56.1
+Jesse James,TE,Lions,30.2
+Drew Sample,TE,Bengals,8
+David Njoku,TE,Browns,15.1
+Trey Burton,TE,Colts,22.4
+Robert Tonyan,TE,Packers,26
+Josh Hill,TE,Saints,65.6
+Dalton Schultz,TE,Cowboys,1.6
+Cameron Brate,TE,Buccaneers,91.1
+Foster Moreau,TE,Raiders,68.4
+Kaden Smith,TE,Giants,75.8
+Mo Alie-Cox,TE,Colts,17.3
+Ryan Griffin,TE,Jets,98
+Tyler Kroft,TE,Bills,19.1
+Virgil Green,TE,Chargers,22.8
+Luke Stocker,TE,Falcons,13.3
+Maxx Williams,TE,Cardinals,41.2
+Blake Bell,TE,Cowboys,14.7
+Marcedes Lewis,TE,Packers,36.6
+Demetrius Harris,TE,Bears,47.9
+MyCole Pruitt,TE,Titans,21
+Jaeden Graham,TE,Falcons,29.9
+Chris Manhertz,TE,Panthers,2.1
+Jason Witten,TE,Raiders,139.9
+Ryan Izzo,TE,Patriots,23.4
+Tyler Conklin,TE,Vikings,13.8
+Jacob Hollister,TE,Seahawks,93.9
+Durham Smythe,TE,Dolphins,13.5
+Nick Vannett,TE,Broncos,33.6
+Andrew Beck,TE,Broncos,24.54
+Levine Toilolo,TE,Giants,3
+Zach Gentry,TE,Steelers,1.4
+Johnny Mundt,TE,Rams,6.6
+Richard Rodgers,TE,Eagles,0
+Darrell Daniels,TE,Cardinals,1.4
+Derek Carrier,TE,Raiders,32.5
+Trevon Wesco,TE,Jets,6.9
+Daniel Brown,TE,Jets,20.2
+Ross Dwelley,TE,49ers,36.1
+Lee Smith,TE,Bills,13.1
+Geoff Swaim,TE,Titans,19.5
+Antony Auclair,TE,Buccaneers,2.1
+Adam Shaheen,TE,Dolphins,16.4
+Eric Saubert,TE,Jaguars,4.1
+J.P. Holtz,TE,Bears,16.1
+Dolphins,D/ST,Dolphins,64
+Steelers,D/ST,Steelers,108
+Washington,D/ST,Washington,77
+Rams,D/ST,Rams,79
+Seahawks,D/ST,Seahawks,20
+Browns,D/ST,Browns,63
+Giants,D/ST,Giants,56
+Packers,D/ST,Packers,40
+Saints,D/ST,Saints,83
+Colts,D/ST,Colts,111
+Broncos,D/ST,Broncos,45
+Bengals,D/ST,Bengals,8
+Jets,D/ST,Jets,13
+Cardinals,D/ST,Cardinals,44
+Panthers,D/ST,Panthers,34
+Cowboys,D/ST,Cowboys,11
+Vikings,D/ST,Vikings,20
+Jaguars,D/ST,Jaguars,11
+Ravens,D/ST,Ravens,85
+Bears,D/ST,Bears,60
+Eagles,D/ST,Eagles,66
+Bills,D/ST,Bills,39
+Texans,D/ST,Texans,21
+49ers,D/ST,49ers,48
+Lions,D/ST,Lions,12
+Falcons,D/ST,Falcons,9
+Raiders,D/ST,Raiders,9
+Chargers,D/ST,Chargers,41
+Chiefs,D/ST,Chiefs,59
+Titans,D/ST,Titans,24
+Patriots,D/ST,Patriots,50
+Buccaneers,D/ST,Buccaneers,84
