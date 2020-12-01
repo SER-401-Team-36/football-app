@@ -13,7 +13,7 @@ def import_players():
     """Uploads players from csv files and API into the db"""
     # All sources are expected to have the same column names:
     # player_name, pos, projection, team
-    csv_list = ["espn_Players.csv", "fantasydata_players.csv"]
+    csv_list = ["espn_Players.csv", "fantasydata_Players.csv"]
     api_list = ["https://www.fantasyfootballdatapros.com/api/projections"]
 
     print('Removing all current projections...')
