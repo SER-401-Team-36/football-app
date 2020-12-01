@@ -50,7 +50,6 @@ def find_or_create_player(row):
     player = Player.query.filter_by(
         name=row["player_name"],
         position=row["pos"],
-        team=row["team"]
     ).first()
 
     if player is None:
