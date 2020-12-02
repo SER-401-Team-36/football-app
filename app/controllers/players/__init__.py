@@ -15,7 +15,7 @@ def get_players():
     if pos:
         query = query.filter_by(
             position=pos.upper()
-            ). order_by(desc('projection'))
+            )
 
     if name_matcher:
         query = query.filter(Player.name.ilike(f"%{name_matcher}%"))

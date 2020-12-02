@@ -1,13 +1,14 @@
 from . import db
-from .projection import Projection
 
 
-class Player(db.Model):
+class Projection(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String)
-    position = db.Column(db.String)
-    team = db.Column(db.String)
-    projections = db.relationship(Projection, backref="player", lazy=True)
+    points = db.Column(db.Float)
+    player_id = db.Column(
+        db.Integer,
+        db.ForeignKey('player.id'),
+        nullable=False
+    )
 
     def __repr__(self):
         return f"<Player {self.position} {self.name}>"

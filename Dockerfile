@@ -10,7 +10,7 @@ RUN \
  python3 -m pip install -r requirements.txt --no-cache-dir && \
  apk --purge del .build-deps
 
-COPY players.csv .
+COPY espn_Players.csv fantasydata_Players.csv ./
 COPY scripts ./scripts
 COPY migrations ./migrations
 COPY app ./app
