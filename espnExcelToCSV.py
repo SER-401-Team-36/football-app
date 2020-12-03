@@ -1,7 +1,9 @@
 import xlrd
 import pandas as pd
 
-path = 'football-app\espnWebPaste.xlsx'
+#This file is now archived as it isn't needed for the main app
+
+path = 'football-app\defenseWebPaste.xlsx'
 file = xlrd.open_workbook(path)
 sheet = file.sheet_by_index(0)
 
@@ -27,6 +29,7 @@ if get_position[-1] == "T":
     NUM_PLAYERS = int(sheet.nrows / ROW_PER_PLAYER)
     for i in range(NUM_PLAYERS):
         name = sheet.cell_value(i * ROW_PER_PLAYER + 2, 1)
+        name = name[:-5]
         team = name
         position = "D/ST"
         points = sheet.cell_value(i * ROW_PER_PLAYER + 4, 7)
