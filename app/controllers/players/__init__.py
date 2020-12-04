@@ -1,5 +1,4 @@
 from flask import Blueprint, jsonify, request
-from sqlalchemy import desc
 from app.models.player import Player
 
 players = Blueprint("players", __name__, url_prefix="/players")
