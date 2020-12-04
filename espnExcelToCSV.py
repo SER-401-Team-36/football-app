@@ -60,22 +60,3 @@ df = pd.DataFrame.from_dict([player.to_dict() for player in players])
 
 
 df.to_csv(r'football-app\\espn_Players.csv', index = False)
-
-
-
-"""
-import requests
-from bs4 import BeautifulSoup
-
-URL = 'https://fantasy.espn.com/football/players/projections'
-page = requests.get(URL)
-
-soup = BeautifulSoup(page.content, 'html.parser')
-
-results = soup.find('div', { 'class' : 'layout__column layout__column--1'})
-results = results.find('div', { 'class' : 'jsx-531718297 projections-page'})
-results = results.find('div', { 'class' : 'jsx-4158115014 loader'})
-results = results.find('div', { 'class' : 'LoadAnimation LoadAnimation--lightBG LoadAnimation--md'})
-
-print(results)
-"""
