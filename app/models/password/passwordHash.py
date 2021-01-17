@@ -11,5 +11,3 @@ class PasswordHash:
     @classmethod
     def from_password(cls, password):
         return cls(bcrypt.hashpw(password, bcrypt.gensalt()))
-
-
