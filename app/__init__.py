@@ -5,6 +5,8 @@ from app.models import db
 from scripts import register_scripts
 
 from app.controllers.players import players
+from app.controllers.users import users
+from app.models.password.passwordHash import flask_bcrypt
 
 
 def create_app(test_config=None):
@@ -18,8 +20,10 @@ def create_app(test_config=None):
 
     db.init_app(app)
     Migrate(app, db)
+    flask_bcrypt.init_app(app)
 
     app.register_blueprint(players)
+    app.register_blueprint(users)
 
     register_scripts(app)
 
