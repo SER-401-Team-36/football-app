@@ -13,6 +13,7 @@ flake8==3.8.4
 Flask==1.1.2
 Flask-Bcrypt==0.7.1
 Flask-Cors==3.0.9
+Flask-JWT==0.3.2
 Flask-Migrate==2.5.2
 Flask-SQLAlchemy==2.4.1
 idna==2.10
@@ -34,6 +35,7 @@ py==1.9.0
 pycodestyle==2.6.0
 pycparser==2.20
 pyflakes==2.2.0
+PyJWT==1.4.2
 pylint==2.6.0
 pylint-flask==0.6
 pylint-plugin-utils==0.6
