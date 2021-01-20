@@ -9,6 +9,8 @@ services:
   web:
     build:
       context: .
+    volumes:
+    - .:/app
     ports:
     - target: 5000
       published: 5000
