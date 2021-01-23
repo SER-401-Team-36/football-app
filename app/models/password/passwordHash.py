@@ -8,7 +8,10 @@ class PasswordHash:
         self.hash = hash
 
     def __eq__(self, potential):
-        return flask_bcrypt.check_password_hash(self.hash, potential)
+        try:
+            return flask_bcrypt.check_password_hash(self.hash, potential)
+        except ValueError:
+            return False
 
     @classmethod
     def from_password(cls, password):

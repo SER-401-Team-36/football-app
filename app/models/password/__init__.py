@@ -1,9 +1,9 @@
-from sqlalchemy.types import TypeDecorator, String
+from sqlalchemy.types import TypeDecorator, LargeBinary
 from .passwordHash import PasswordHash
 
 
 class Password(TypeDecorator):
-    impl = String(128)
+    impl = LargeBinary
 
     def process_bind_param(self, value, dialect):
         return value.hash
