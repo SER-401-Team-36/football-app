@@ -14,7 +14,7 @@ def authenticate_user():
 
     user = User.query.filter_by(email=email).first()
 
-    if not user:
+    if user is None:
         return jsonify({"msg": "Invalid user"}), 400
 
     if user.password != password:
