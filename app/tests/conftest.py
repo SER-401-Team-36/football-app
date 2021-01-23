@@ -11,7 +11,8 @@ def test_client():
     flask_app = create_app({
         "TESTING": True,
         "WTF_CSRF_ENABLED": False,
-        "DATABASE_URI": f"{os.getenv('DATABASE_URI')}-test"
+        "DATABASE_URI": f"{os.getenv('DATABASE_URI')}-test",
+        "JWT_SECRET_KEY": 'test-key'
     })
 
     testing_client = flask_app.test_client()
