@@ -1,12 +1,12 @@
 from flask import Blueprint, jsonify, request
-from flask_jwt import jwt_required
+from flask_jwt_extended import jwt_required
 from app.models.player import Player
 
 players = Blueprint("players", __name__, url_prefix="/players")
 
 
 @players.route("/")
-@jwt_required()
+@jwt_required
 def get_players():
     pos = request.args.get('position')
     name_matcher = request.args.get('match_on_name')
