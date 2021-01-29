@@ -9,7 +9,6 @@ class Player(db.Model):
     team = db.Column(db.String)
     average_projection = db.Column(db.Float)
     projections = db.relationship(Projection, backref="player", lazy=True)
-    team_id = db.Column(db.Integer, db.ForeignKey('user.id'))
 
     def __repr__(self):
         return f"<Player {self.position} {self.name}>"
