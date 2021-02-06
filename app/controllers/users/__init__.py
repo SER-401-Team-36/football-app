@@ -1,4 +1,5 @@
-from flask import Blueprint, request, Response
+from flask import Blueprint, request, Response, jsonify
+from flask_jwt_extended import jwt_required, get_jwt_identity
 from app.models.user import User
 from app.models import db
 
@@ -16,3 +17,12 @@ def create_user():
     db.session.commit()
 
     return Response(status=201)
+
+
+@users.route('/current', methods=['get'])
+@jwt_required
+def get_current_user():
+    user_id = get_jwt_identity()
+    user = User(id=user_id)
+
+    return jsonify(user.as_dict())
