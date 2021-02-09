@@ -1,9 +1,10 @@
 from sqlalchemy.orm import validates
-from . import db
+from app.models import db
 from app.models.password import Password, PasswordHash
+from app.models.mixins.timestamps import HasTimestamps
 
 
-class User(db.Model):
+class User(HasTimestamps, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(120), unique=True, nullable=False)
     password = db.Column(Password, nullable=False)

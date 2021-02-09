@@ -1,7 +1,8 @@
-from . import db
+from app.models import db
+from app.models.mixins.timestamps import HasTimestamps
 
 
-class Projection(db.Model):
+class Projection(HasTimestamps, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     points = db.Column(db.Float)
     player_id = db.Column(
