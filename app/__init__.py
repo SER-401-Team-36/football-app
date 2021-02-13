@@ -8,6 +8,7 @@ from scripts import register_scripts
 from app.controllers.players import players
 from app.controllers.users import users
 from app.controllers.authenticate import authenticate
+from app.controllers.draft import drafts
 
 from app.models.password.passwordHash import flask_bcrypt
 from app.models import db
@@ -30,6 +31,7 @@ def create_app(test_config=None):
     app.register_blueprint(players)
     app.register_blueprint(users)
     app.register_blueprint(authenticate)
+    app.register_blueprint(drafts)
 
     register_scripts(app)
 
