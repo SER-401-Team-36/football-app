@@ -1,4 +1,5 @@
 from sqlalchemy.orm import validates
+
 from app.models import db
 from app.models.password import Password, PasswordHash
 from app.models.associations.player_draft_user import PlayerDraftUser

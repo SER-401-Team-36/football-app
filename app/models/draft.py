@@ -8,7 +8,7 @@ class Draft(HasTimestamps, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
 
-    users = db.relationship(User, backref="draft")
+    user = db.relationship(User, backref='drafts')
     user_players = db.relationship(PlayerDraftUser, backref='draft')
 
     def __repr__(self):
