@@ -12,7 +12,10 @@ class User(db.Model):
         return f"<User {self.id} {self.email}>"
 
     def as_dict(self):
-        return {c.name: getattr(self, c.name) for c in self.__table__.columns}
+        return {
+            "id": self.id,
+            "email": self.email,
+        }
 
 
     @validates('password')
