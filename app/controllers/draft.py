@@ -43,3 +43,16 @@ def add_user_to_draft(draft_id):
     db.session.commit()
 
     return Response(status=200)
+
+
+@drafts.route('/<int:draft_id>/reset', methods=['POST'])
+@jwt_required
+def reset_draft(draft_id):
+    draft = Draft.query.filter_by(id=draft_id).first()
+
+    for player_draft_user in draft.player_users:
+        db.session.delete(player_draft_user)
+
+    db.session.commit()
+
+    return Response(status=200)

@@ -11,7 +11,7 @@ class User(HasTimestamps, db.Model):
     email = db.Column(db.String(120), unique=True, nullable=False)
     password = db.Column(Password, nullable=False)
 
-    draft_players = db.relationship(PlayerDraftUser, backref='user')
+    player_drafts = db.relationship(PlayerDraftUser, backref='user')
 
     def __repr__(self):
         return f"<User {self.id} {self.email}>"
