@@ -5,7 +5,7 @@ from app.models.player import Player
 players = Blueprint("players", __name__, url_prefix="/players")
 
 
-@players.route("/")
+@players.route("")
 @jwt_required
 def get_players():
     pos = request.args.get('position')
