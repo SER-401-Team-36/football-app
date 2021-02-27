@@ -7,7 +7,7 @@ class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(120), unique=True, nullable=False)
     password = db.Column(Password, nullable=False)
-    players = db.Column(db.Array)
+    players = db.Column(db.Array) #is this the right way to do this?
 
     def __repr__(self):
         return f"<User {self.id} {self.email}>"
