@@ -16,3 +16,7 @@ def create_user():
     db.session.commit()
 
     return Response(status=201)
+
+
+# To-Do 
+# Add endpoint to add players to user
