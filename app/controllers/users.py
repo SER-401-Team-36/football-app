@@ -23,6 +23,6 @@ def create_user():
 @jwt_required
 def get_current_user():
     user_id = get_jwt_identity()
-    user = User.query.filter_by(id=user_id).first()
+    user = User.query.filter_by(id=user_id).one()
 
     return jsonify(user.as_dict())
