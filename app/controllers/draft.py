@@ -102,11 +102,31 @@ def find_draft_players(draft_id):
         Player.query.all() if
         player.id not in [player['id'] for player in user_draft_players] and
         player.id not in [player['id'] for player in non_user_draft_players]
-    ]  
+    ]
 
     return jsonify(
         user_draft_players + non_user_draft_players + available_players
     )
+
+
+@drafts.route('/<int:draft_id>/player/recommended', methods=['GET'])
+@jwt_required
+def get_recommended_draft_player(draft_id):
+    draft = Draft.query.filter_by(id=draft_id).first()
+
+    taken_player_ids = list(map(
+        lambda player_user: player_user.player_id, draft.player_users
+        ))
+
+    player = (
+              Player
+              .query
+              .filter(Player.id.notin_(taken_player_ids))
+              .order_by(Player.average_projection.desc())
+              .first()
+             )
+
+    return jsonify(player.as_dict())
 
 
 @drafts.route('/<int:draft_id>/reset', methods=['POST'])
