@@ -12,7 +12,7 @@ class Projection(HasTimestamps, db.Model):
     )
 
     def __repr__(self):
-        return f"<Player {self.position} {self.name}>"
+        return f"<Projection id:{self.id} {self.points}>"
 
     def as_dict(self):
         return {c.name: getattr(self, c.name) for c in self.__table__.columns}
