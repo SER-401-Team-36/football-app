@@ -2,6 +2,7 @@ from app.models import db
 from app.models.projection import Projection
 from app.models.associations.player_draft_user import PlayerDraftUser
 from app.models.mixins.timestamps import HasTimestamps
+from sqlalchemy.inspection import inspect
 
 
 class Player(HasTimestamps, db.Model):
@@ -17,5 +18,6 @@ class Player(HasTimestamps, db.Model):
     def __repr__(self):
         return f"<Player {self.position} {self.name}>"
 
-    def as_dict(self, projections):
-        return {c.name: getattr(self, c.name), projections: getattr(self, c.projections) for c in self.__table__.columns}
+    def as_dict(self):
+        all_projections = inspect(self.__table__.columns).relationship.items()
+        return {c.name: getattr(self, c.name) for c in self.__table__.columns}
