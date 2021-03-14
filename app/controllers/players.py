@@ -14,9 +14,7 @@ def get_players():
     query = Player.query
 
     if pos:
-        query = query.filter_by(
-            position=pos.upper()
-            )
+        query = query.filter_by(position=pos.upper())
 
     if name_matcher:
         query = query.filter(Player.name.ilike(f"%{name_matcher}%"))
