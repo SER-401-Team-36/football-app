@@ -19,5 +19,5 @@ class Player(HasTimestamps, db.Model):
         return f"<Player {self.position} {self.name}>"
 
     def as_dict(self):
-        all_projections = inspect(self.__table__.columns).relationship.items()
+        all_projections = inspect(self).relationship.items()
         return {c.name: getattr(self, c.name) for c in self.__table__.columns}
