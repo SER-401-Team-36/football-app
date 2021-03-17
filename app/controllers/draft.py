@@ -112,21 +112,24 @@ def find_draft_players(draft_id):
 @drafts.route('/<int:draft_id>/player/recommended', methods=['GET'])
 @jwt_required
 def get_recommended_draft_player(draft_id):
+    pos = request.args.get('position')
     draft = Draft.query.filter_by(id=draft_id).first()
 
     taken_player_ids = list(map(
         lambda player_user: player_user.player_id, draft.player_users
         ))
 
-    player = (
+    query = (
               Player
               .query
               .filter(Player.id.notin_(taken_player_ids))
               .order_by(Player.average_projection.desc())
-              .first()
-             )
+            )
 
-    return jsonify(player.as_dict())
+    if pos:
+        query = query.filter_by(position=pos.upper())
+
+    return jsonify(query.first().as_dict())
 
 
 @drafts.route('/<int:draft_id>/reset', methods=['POST'])
