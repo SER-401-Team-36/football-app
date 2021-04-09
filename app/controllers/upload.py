@@ -3,6 +3,7 @@ from flask_jwt_extended import jwt_required, get_jwt_identity
 from app.models import db
 from werkzeug.utils import secure_filename
 import os
+import glob
 
 upload = Blueprint("upload", __name__, url_prefix="/upload")
 
@@ -46,4 +47,12 @@ def upload_file():
             return redirect(request.url)
 
     return redirect("http://localhost:3000/Upload")
-    
+
+@upload.route('/delete', methods=['POST', 'GET'])
+def delete_file():
+    directory='../football-app'
+    os.chdir(directory)
+    files=glob.glob('*.csv')
+    for filename in files:
+        os.unlink(filename)
+    return redirect("http://localhost:3000/Upload")
