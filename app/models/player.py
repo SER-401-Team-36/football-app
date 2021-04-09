@@ -12,7 +12,7 @@ class Player(HasTimestamps, db.Model):
     average_projection = db.Column(db.Float)
 
     projections = db.relationship(Projection, backref="player", lazy=True)
-    draft_users = db.relationship(PlayerDraftUser, backref='player')
+    draft_users = db.relationship(PlayerDraftUser, cascade="all,delete", backref='player')
 
     def __repr__(self):
         return f"<Player {self.position} {self.name}>"
