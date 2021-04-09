@@ -6,6 +6,7 @@ from flask_migrate import Migrate
 from scripts import register_scripts
 
 from app.controllers.players import players
+from app.controllers.upload import upload
 from app.controllers.users import users
 from app.controllers.authenticate import authenticate
 from app.controllers.draft import drafts
@@ -32,6 +33,7 @@ def create_app(test_config=None):
     app.register_blueprint(users)
     app.register_blueprint(authenticate)
     app.register_blueprint(drafts)
+    app.register_blueprint(upload)
 
     register_scripts(app)
 
