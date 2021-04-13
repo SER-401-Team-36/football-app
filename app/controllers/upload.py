@@ -43,8 +43,8 @@ def calculate_derived_values():
     for player in players:
         total = 0
         for projection in player.projections:
-            total = projection.points
-        player.average_projection = total
+            total += float(projection.points)
+        player.average_projection = round(total/len(player.projections), 3)
 
 def add_projection(row):
     player = find_or_create_player(row)
