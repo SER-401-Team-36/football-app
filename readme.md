@@ -23,8 +23,7 @@ This app is now setup with docker. Follow the steps in [Running the app in docke
 2. Run `docker-compose up` to start up the containers
 3. Run `docker-compose exec web flask db upgrade` to run all pending migrations
 4. Run `docker-compose exec web flask import-players` to run the import script 
-
-Switch to Front-End folder
+5. Switch to Front-End folder (football-app-ui)
 6. sudo apt install npm
 7. sudo apt-get update
 8. npm config set strict-ssl false
