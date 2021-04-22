@@ -30,6 +30,9 @@ This app is now setup with docker. Follow the steps in [Running the app in docke
 9. npm config set strict-ssl false
 10. npm install
 11. npm start
+12. The default login information is
+    - username: user
+    - password: password
 
 
 ## Linting

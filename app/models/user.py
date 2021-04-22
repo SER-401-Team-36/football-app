@@ -22,7 +22,6 @@ class User(HasTimestamps, db.Model):
             "email": self.email,
         }
 
-
     @validates('password')
     def validate_password(self, key, password):
         if (isinstance(password, PasswordHash)):

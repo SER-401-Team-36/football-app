@@ -17,5 +17,19 @@ services:
     environment:
       DATABASE_URI: postgres://postgres:password@db
       FLASK_APP: app
+
+  start_up:
+    depends_on: 
+    - db
+    - web
+    build:
+      context: .
+    volumes:
+    - .:/app
+    environment:
+      DATABASE_URI: postgres://postgres:password@db
+      FLASK_APP: app
+    command: ['flask', 'create-default-user']
+
 volumes:
   db_data:
