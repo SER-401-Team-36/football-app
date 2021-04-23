@@ -23,10 +23,10 @@ This app is now setup with docker. Follow the steps in [Running the app in docke
 2. Run `docker-compose up` to start up the containers
 3. Open new terminal window, then continue to step 4.
 4. Run `docker-compose exec web flask db upgrade` to run all pending migrations
-5. Run `docker-compose exec web flask import-players` to run the import script 
+5. Run `docker-compose exec web flask import-players` to run the import script - Currently imports 2020 player stats.
 6. Switch to Front-End folder (football-app-ui)
-7. sudo apt install npm
-8. sudo apt-get update
+7. sudo apt install npm - If on Windows, install Node
+8. sudo apt-get update - If on Windows, can be skipped.
 9. npm config set strict-ssl false
 10. npm install
 11. npm start
@@ -37,3 +37,9 @@ This app is now setup with docker. Follow the steps in [Running the app in docke
 
 ## Linting
 This repo uses [flake8](https://pypi.org/project/flake8/2.2.4/) as a code formater. Please be sure to run `flake8 app` and fix any issues before committing any code, otherwise it will nott pass ci
+
+## Future Features
+A few features could be developed relatively easily and should be early targets for the new team.
+1. Add label to columns in draft.
+2. Show high and low points in draft screen.
+3. Include column names for CSV files.
