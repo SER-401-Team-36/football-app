@@ -43,4 +43,4 @@ A few features could be developed relatively easily and should be early targets 
 1. Add RB component to draft page.
 2. Add label to columns in draft.
 3. Show high and low points in draft screen.
-4. Include column names for CSV files.
+4. When uploading a csv ensure column names match the format. (ie. player_name, pos, team, projection)
