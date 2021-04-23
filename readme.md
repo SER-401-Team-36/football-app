@@ -40,6 +40,7 @@ This repo uses [flake8](https://pypi.org/project/flake8/2.2.4/) as a code format
 
 ## Future Features
 A few features could be developed relatively easily and should be early targets for the new team.
-1. Add label to columns in draft.
-2. Show high and low points in draft screen.
-3. Include column names for CSV files.
+1. Add RB component to draft page.
+2. Add label to columns in draft.
+3. Show high and low points in draft screen.
+4. Include column names for CSV files.
